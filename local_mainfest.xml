@@ -6,7 +6,7 @@
 	<remote name="agrezia"
 		fetch="https://github.com/Fraschze97" />
 
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="agrezia" revision="eleven" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
 
 </manifest>
