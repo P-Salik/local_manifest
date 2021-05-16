@@ -5,6 +5,8 @@
                 fetch="https://github.com/P-Salik" />
 	<remote name="agrezia"
 		fetch="https://github.com/Fraschze97" />
+	<remote name="pro"
+		fetch="https://github.com/SparXFusion" />
 
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
