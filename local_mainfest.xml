@@ -15,7 +15,7 @@
 	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="sakthivel" revision="eleven" clone-depth="1" />
 
 	<!-- Patches -->
-	<remove-project name="external/selinux" />
+	<remove-project name="android_external_selinux" />
 	<project path="external/selinux" name="android_external_selinux" remote="salik" revision="lineage-17.1" clone-depth="1" />
 
         <!-- Realme Parts -->
