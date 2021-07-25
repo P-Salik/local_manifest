@@ -5,10 +5,15 @@
                 fetch="https://github.com/P-Salik" />
 	<remote name="agrezia"
 		fetch="https://github.com/Fraschze97" />
-	<remote name="pixel"
-		fetch="https://github.com/PixelExperience" />
+	<remote name="minati"
+		fetch="https://github.com/techyminati" />
 
+	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="agrezia" revision="eleven" clone-depth="1" />
+
+	<!-- FM Radio -->
+	<remove-project name="LineageOS/android_packages_apps_FMRadio" />
+	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="minati" revision="lineage-18.1-C2" clone-depth="1" />
 
 </manifest>
