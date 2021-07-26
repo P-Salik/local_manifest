@@ -10,7 +10,7 @@
 
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="agrezia" revision="eleven" clone-depth="1" />
+        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="eleven" clone-depth="1" />
 
 	<!-- FM Radio -->
 	<remove-project name="LineageOS/android_packages_apps_FMRadio" />
