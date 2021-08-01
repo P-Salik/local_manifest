@@ -3,10 +3,6 @@
 
         <remote  name="salik"
                 fetch="https://github.com/P-Salik" />
-	<remote name="agrezia"
-		fetch="https://github.com/Fraschze97" />
-	<remote name="minati"
-		fetch="https://github.com/techyminati" />
 
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
