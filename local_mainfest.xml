@@ -9,6 +9,6 @@
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="salik" revision="eleven-oss" clone-depth="1" />
-	<project path="kernel/realme/RMX1941" name="android_kernel_teracube_2e" remote="2e" revision="q-release" clone-depth="1" />
+	<!-- <project path="kernel/realme/RMX1941" name="android_kernel_teracube_2e" remote="2e" revision="q-release" clone-depth="1" /> -->
 
 </manifest>
