@@ -3,12 +3,12 @@
 
         <remote  name="salik"
                 fetch="https://github.com/P-Salik" />
-	<remote name="2e"
-		fetch="https://github.com/2e-dev" />
+	<remote name="techy"
+		fetch="https://github.com/techyminati" />
 
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="salik" revision="eleven-oss" clone-depth="1" />
-	<project path="kernel/realme/RMX1941" name="android_kernel_teracube_2e" remote="2e" revision="q-release" clone-depth="1" />
+	<project path="kernel/realme/RMX1941" name="android_kernel_realme_karashi" remote="techy" revision="android-10.0" clone-depth="1" />
 
 </manifest>
