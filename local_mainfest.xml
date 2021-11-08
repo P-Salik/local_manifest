@@ -9,9 +9,9 @@
 		fetch="https://github.com/Realme-C2-RMX1941" />
 
 	<!-- Device Sauce -->
-        <project path="device/realme/RMX1941" name="device_realme_RMX1941-oss" remote="salik" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="org" revision="eleven-oss" clone-depth="1" />
-	<project path="kernel/realme/RMX1941" name="android_kernel_realme_karashi" remote="salik" revision="android-10.0" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="org" revision="COS" clone-depth="1" />
+        <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="salik" revision="cos-oss" clone-depth="1" />
+	<project path="kernel/realme/RMX1941" name="android_kernel_realme_mt6762" remote="salik" revision="android-9.0" clone-depth="1" />
 
 	<!-- Patches -->
 	<remove-project name="platform/external/selinux" />
