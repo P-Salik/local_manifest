@@ -17,7 +17,7 @@
 
 	<!-- Patches -->
 	<remove-project name="platform/external/selinux" />
-	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="eleven" clone-depth="1" />
+	<project path="external/selinux" name="android_external_selinux" remote="patch" revision="twelve" clone-depth="1" />
 
 	<remove-project name="platform/frameworks/opt/net/ims" />
 	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="patch" revision="eleven" clone-depth="1" />
