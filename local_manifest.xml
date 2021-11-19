@@ -22,6 +22,9 @@
 	<remove-project name="platform/frameworks/opt/net/ims" />
 	<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="patch" revision="twelve" clone-depth="1" />
 
+	<remove-project name="platform/system/vold" />
+	<project path="system/vold" name="android_system_vold" remote="patch" revision="twelve" clone-depth="1" />
+
 	<!-- IMS -->
 	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve" clone-depth="1" />
 
