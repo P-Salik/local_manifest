@@ -11,6 +11,9 @@
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941-oss" remote="salik" revision="lineage-19.0" clone-depth="1" />
 	<project path="kernel/realme/RMX1941" name="android_kernel_realme_karashi" remote="salik" revision="android-10.0" clone-depth="1" />
 
+	<!-- Remove -->
+	<remove-project name="android_hardware_qcom_display" />
+
 	<!-- IMS -->
 	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve" clone-depth="1" />
 
