@@ -15,6 +15,6 @@
 	<remove-project name="android_hardware_qcom_display" />
 
 	<!-- IMS -->
-	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve" clone-depth="1" />
+	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="sarthak" revision="twelve-rmui1" clone-depth="1" />
 
 </manifest>
