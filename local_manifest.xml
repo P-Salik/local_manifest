@@ -29,4 +29,7 @@
 	<!-- IMS -->
 	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="salik" revision="twelve-rmui1" clone-depth="1" />
 
+	<!-- SEPolicy -->
+	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="salik" revision="twelve" clone-depth="1" />
+
 </manifest>
