@@ -27,7 +27,7 @@
 	<project path="system/vold" name="android_system_vold-LineageOS" remote="salik" revision="lineage-19.0" clone-depth="1" />
 
 	<!-- IMS -->
-	<project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="salik" revision="twelve-rmui1" clone-depth="1" />
+	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
 
 	<!-- SEPolicy -->
 	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="salik" revision="twelve" clone-depth="1" />
