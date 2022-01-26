@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+	<!-- Remotes -->
         <remote name="salik"
                 fetch="https://github.com/P-Salik" />
-	<remote name="patch"
-		fetch="https://github.com/CipherOS" />
-	<remote  name="sarthak"
-		fetch="https://github.com/sarthakroy2002" />
 
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-12.0" clone-depth="1" />
@@ -18,7 +14,6 @@
 
 	<!-- Patches -->
 	<remove-project name="android_frameworks_base" />
-
 	<project path="frameworks/base" name="frameworks_base-arrow" remote="salik" revision="arrow-12.0" clone-depth="1" />
 
 	<!-- IMS -->
