@@ -5,16 +5,12 @@
                 fetch="https://github.com/P-Salik" />
 
 	<!-- Device Sauce -->
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="twelve-wip" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="twelve-wip" clone-depth="1" />
-	<project path="kernel/realme/RMX1941" name="android_kernel_realme_karashi" remote="salik" revision="android-10.0" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-12.1" clone-depth="1" />
+        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="twelve" clone-depth="1" />
+	<project path="kernel/realme/RMX1941" name="kernel_realme_RMX1941" remote="salik" revision="P" clone-depth="1" />
 
 	<!-- Parts -->
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="salik" revision="aosp12" clone-depth="1" />
-
-	<!-- Patches -->
-	<remove-project name="android_frameworks_base" />
-	<project path="frameworks/base" name="frameworks_base-arrow" remote="salik" revision="arrow-12.0" clone-depth="1" />
 
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
