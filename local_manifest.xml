@@ -5,14 +5,13 @@
                 fetch="https://github.com/P-Salik" />
 
 	<!-- Device Sauce -->
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-12.1" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="twelve" clone-depth="1" />
 	<project path="kernel/realme/RMX1941" name="kernel_realme_RMX1941" remote="salik" revision="P" clone-depth="1" />
 
-	<!-- Patches -->
-	<remove-project name="android_system_core" />
-	<project path="system/core" name="android_system_core-arrow" revision="arrow-12.1" remote="salik" clone-depth="1" />
-
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
+
+	<!-- SEPolicy -->
+	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="salik" revision="twelve" clone-depth="1" />
 </manifest>
