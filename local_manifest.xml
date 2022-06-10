@@ -11,7 +11,4 @@
 
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
-
-	<!-- SEPolicy -->
-	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="salik" revision="twelve" clone-depth="1" />
 </manifest>
