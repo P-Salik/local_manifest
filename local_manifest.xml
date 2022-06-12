@@ -5,7 +5,7 @@
                 fetch="https://github.com/P-Salik" />
 
 	<!-- Device Sauce -->
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-12.1" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="test" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="twelve" clone-depth="1" />
 	<project path="kernel/realme/RMX1941" name="kernel_realme_RMX1941" remote="salik" revision="P" clone-depth="1" />
 
