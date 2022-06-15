@@ -13,6 +13,12 @@
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
 
 	<!-- SEPolicy -->
-	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="salik" revision="twelve" clone-depth="1" />
+	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="salik" revision="twelve-L" clone-depth="1" />
 
+	<!-- Patches -->
+	<remove-project name="LineageOS/android_system_core" />
+	<project path="system/core" name="android_system_core-lineage" remote="salik" revision="lineage-19.1" clone-depth="1" />
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project path="frameworks/base" name="android_frameworks_base-lineage" remote="salik" revision="lineage-19.1" clone-depth="1" />
 </manifest>
