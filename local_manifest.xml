@@ -7,7 +7,7 @@
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-12.1" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="Sv2" clone-depth="1" />
-	<project path="kernel/realme/RMX1941" name="kernel_realme_RMX1941" remote="salik" revision="P" clone-depth="1" />
+	<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="salik" revision="Q" clone-depth="1" />
 
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
