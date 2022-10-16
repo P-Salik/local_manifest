@@ -14,6 +14,6 @@
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
 
 	<!-- Clang -->
-	<project path="prebuilts/clang/host/linux-x86/clang-5484270" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
 
 </manifest>
