@@ -7,14 +7,17 @@
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="CipherOS" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="Sv2" clone-depth="1" />
-	<project path="kernel/realme/RMX1941" name="kernel_realme_RMX1941" remote="salik" revision="P" clone-depth="1" />
+	<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="salik" revision="Q" clone-depth="1" />
 
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="twelve" clone-depth="1" />
+
+	<!-- Clang -->
+	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
 
 	<!-- remove gheyness of some rarts -->
 	<remove-project name="android_vendor_qcom_opensource_packages_apps_Bluetooth" />
 	<remove-project name="android_vendor_qcom_opensource_system_bt" />
 	<remove-project name="android_vendor_qcom_opensource_bluetooth_ext" />
-        <remove-project name="android_hardware_xiaomi" />
+	<remove-project name="android_hardware_xiaomi" />
 </manifest>
