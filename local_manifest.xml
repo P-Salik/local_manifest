@@ -12,7 +12,28 @@
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="salik" revision="thirteen-rmui1" clone-depth="1" />
 
-	<!-- SEPolicy -->
+	<!-- Remove -->
+	<remove-project name="LineageOS/android_bionic" />
+	<remove-project name="android_device_mediatek_sepolicy_vndr" />
+	<remove-project name="LineageOS/android_build_soong" />
+	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<remove-project name="LineageOS/android_hardware_interfaces" />
+	<remove-project name="platform/frameworks/opt/net/ims" />
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+	<remove-project name="LineageOS/android_system_core" />
+
+	<!-- Fixup -->
+	<project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="salik" revision="arrow-13.0" clone-depth="1" />
+	<project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" />
+	<project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
+	<project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+	<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
+	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
+	<project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+	<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
+	<project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
 
 </manifest>
