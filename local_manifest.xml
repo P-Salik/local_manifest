@@ -5,7 +5,7 @@
         <remote name="salik"
                 fetch="https://github.com/P-Salik" />
 
-	<remote  name="aosp"
+	<remote  name="aospr20"
 		fetch="https://android.googlesource.com" />
 
 	<!-- Device Sauce -->
@@ -23,6 +23,6 @@
 	<remove-project name="platform/prebuilts/clang/host/linux-x86"  />
 
 	<!-- Fixup -->
-	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" revision="refs/tags/android-13.0.0_r0.51" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" revision="refs/tags/android-13.0.0_r20" clone-depth="1" />
 
 </manifest>
