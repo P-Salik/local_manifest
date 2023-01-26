@@ -5,9 +5,6 @@
         <remote name="salik"
                 fetch="https://github.com/P-Salik" />
 
-	<remote  name="aospr20"
-		fetch="https://android.googlesource.com" />
-
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-13.0" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="tiramsu" clone-depth="1" />
@@ -21,8 +18,10 @@
 
 	<!-- Remove -->
 	<remove-project name="platform/prebuilts/clang/host/linux-x86"  />
+	<remove-project name="platform/bionic" />
 
 	<!-- Fixup -->
 	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
+	<project path="bionic" name="platform/bionic" groups="pdk" revision="refs/tags/android-13.0.0_r21" />
 
 </manifest>
