@@ -5,9 +5,6 @@
         <remote name="salik"
                 fetch="https://github.com/P-Salik" />
 
-	<remote name="fixup"
-		fetch="https://gitlab.com/GhostMaster69-dev" />
-
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-13.0" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="tiramsu" clone-depth="1" />
@@ -26,6 +23,5 @@
 	<!-- Fixup -->
 	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
 	<project path="bionic" name="crdroidandroid/android_bionic" remote="github" revision="13.0" />
-	<project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="fixup" revision="master" clone-depth="1" />
 
 </manifest>
