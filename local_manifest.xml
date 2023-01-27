@@ -16,4 +16,8 @@
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
 
+	<!-- patch -->
+	<remove-project name="vendor_aosp" />
+	<project path="vendor/aosp" name="vendor_aosp-pos" remote="salik" revision="thirteen" clone-depth="1" />
+
 </manifest>
