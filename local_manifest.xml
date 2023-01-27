@@ -13,7 +13,7 @@
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="salik" revision="thirteen-rmui1" clone-depth="1" />
 
 	<!-- Sepolicy -->
-	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="salik" revision="arrow-13.0" clone-depth="1" />
+	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0" clone-depth="1" />
 
 	<!-- Remove -->
 	<remove-project name="LineageOS/android_bionic" />
@@ -27,14 +27,14 @@
 	<remove-project name="LineageOS/android_system_core" />
 
 	<!-- Fixup -->
-	<project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-	<project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" />
-	<project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
-	<project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-	<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" />
-	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
-	<project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
-	<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-	<project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+	<project path="bionic" name="LineageOS/android_bionic" remote="github" revision="lineage-20.0" />
+	<project path="build/soong" name="LineageOS/android_build_soong" remote="github" revision="lineage-20.0" />
+	<project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-20.0" />
+	<project path="frameworks/base" name="LineageOS/android_frameworks_base" remote="github" revision="lineage-20.0" />
+	<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="github" revision="lineage-20.0" />
+	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="aosp" revision="refs/tags/android-13.0.0_r20" />
+	<project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" remote="github" revision="lineage-20.0" />
+	<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="github" revision="lineage-20.0" />
+	<project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-20.0" />
 
 </manifest>
