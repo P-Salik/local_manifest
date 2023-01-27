@@ -18,10 +18,10 @@
 
 	<!-- Remove -->
 	<remove-project name="platform/prebuilts/clang/host/linux-x86"  />
-	<remove-project name="platform/bionic" />
+	<remove-project name="android_bionic" />
 
 	<!-- Fixup -->
 	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
-	<project path="bionic" name="platform/bionic" groups="pdk" revision="refs/tags/android-13.0.0_r21" />
+	<!-- project path="bionic" name="platform/bionic" groups="pdk" revision="refs/tags/android-13.0.0_r21" / -->
 
 </manifest>
