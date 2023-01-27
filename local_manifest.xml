@@ -3,7 +3,9 @@
 
 	<!-- Remotes -->
         <remote name="salik"
-                fetch="https://github.com/P-Salik" />
+		fetch="https://github.com/P-Salik" />
+	<remote  name="arrowos-project"
+		fetch="https://gitlab.com/arrowos-project" />
 
 	<!-- Device Sauce -->
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="salik" revision="arrow-13.0" clone-depth="1" />
@@ -13,15 +15,20 @@
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="salik" revision="thirteen-rmui1" clone-depth="1" />
 
-	<!-- Clang -->
-	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
-
-	<!-- Remove -->
+	<!-- Clang error fixup -->
 	<remove-project name="platform/prebuilts/clang/host/linux-x86"  />
-	<remove-project name="android_bionic" />
 
-	<!-- Fixup -->
 	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
+
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
+
+	<!-- Clone required clang -->
+	<project path="prebuilts/clang/host/linux-
+x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
+
+	<!-- bionic sync fixup -->
+	<remove-project name="android_bionic" />
 	<project path="bionic" name="crdroidandroid/android_bionic" remote="github" revision="13.0" />
 
 </manifest>
