@@ -15,26 +15,4 @@
 	<!-- Sepolicy -->
 	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0" clone-depth="1" />
 
-	<!-- Remove -->
-	<remove-project name="LineageOS/android_bionic" />
-	<remove-project name="LineageOS/android_build_soong" />
-	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
-	<remove-project name="LineageOS/android_frameworks_base" />
-	<remove-project name="LineageOS/android_hardware_interfaces" />
-	<remove-project name="platform/frameworks/opt/net/ims" />
-	<remove-project name="LineageOS/android_packages_apps_Settings" />
-	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<remove-project name="LineageOS/android_system_core" />
-
-	<!-- Fixup -->
-	<project path="bionic" name="LineageOS/android_bionic" remote="github" revision="lineage-20.0" />
-	<project path="build/soong" name="LineageOS/android_build_soong" remote="github" revision="lineage-20.0" />
-	<project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-20.0" />
-	<project path="frameworks/base" name="LineageOS/android_frameworks_base" remote="github" revision="lineage-20.0" />
-	<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="github" revision="lineage-20.0" />
-	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="aosp" revision="refs/tags/android-13.0.0_r20" />
-	<project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" remote="github" revision="lineage-20.0" />
-	<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="github" revision="lineage-20.0" />
-	<project path="system/core" name="LineageOS/android_system_core" remote="github" revision="lineage-20.0" />
-
 </manifest>
