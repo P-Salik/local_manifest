@@ -24,5 +24,11 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clamg" revision="master" clone-depth="1" />
 
+	<!-- Patches -->
+	<remove-project name="platform/system/bpf" />
+	<project path="system/bpf" name="system_bpf" remote="salik" revision="android-13.0.0_r20" clone-depth="1" />
+	<remove-project name="LineageOS/android_system_core" />
+	<project path="system/core" name="system_core" remote="salik" revision="lineage-20.0" clone-depth="1" />
+
 
 </manifest>
