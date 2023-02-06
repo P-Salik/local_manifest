@@ -19,6 +19,16 @@
 	<!-- Clone required clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
 
+	<!-- Patches -->
+	<remove-project name="platform/system/bpf" />
+	<project path="system/bpf" name="system_bpf" remote="salik" revision="android-13.0.0_r20" clone-depth="1" />
+	<remove-project name="android_system_core" />
+	<project path="system/core" name="android_system_core" remote="salik" revision="arrow-13.0" clone-depth="1" />
+
+	<!-- Sync fuckup fix -->
 	<project path="vendor/xiaomi/tulip" name="xyz-mocha/vendor_xiaomi_tulip" remote="github" revision="13.x" />
+	<remove-project name="android_hardware_qcom_audio" />
+	<remove-project name="android_hardware_qcom_display" />
+	<remove-project name="android_hardware_qcom_media" />
 
 </manifest>
