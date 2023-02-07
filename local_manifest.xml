@@ -5,8 +5,12 @@
         <remote name="salik"
 		fetch="https://github.com/P-Salik" />
 
+	<remote name="salikalt"
+		fetch="https://github.com/P-SalikAlt" />
+
 	<remote name="clamg"
 		fetch="https://gitlab.com/ImSurajxD" />
+
 
 
 	<!-- Device Sauce -->
@@ -14,24 +18,43 @@
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="salik" revision="tiramsu" clone-depth="1" />
 	<project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="salik" revision="Q-rebase" clone-depth="1" />
 
+
 	<!-- IMS -->
 	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX2020-ims" remote="salik" revision="thirteen-rmui1" clone-depth="1" />
+
 
 	<!-- Sepolicy -->
 	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0" clone-depth="1" />
 
+
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
+
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clamg" revision="master" clone-depth="1" />
+
 
 	<!-- GCC -->
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="salik" revision="master" clone-depth="1" />
 
-	<!-- Patches -->
+
+	<!-- Patches (Boot) -->
 	<remove-project name="platform/system/bpf" />
-	<project path="system/bpf" name="system_bpf" remote="salik" revision="android-13.0.0_r20" clone-depth="1" />
 	<remove-project name="LineageOS/android_system_core" />
-	<project path="system/core" name="system_core" remote="salik" revision="lineage-20.0" clone-depth="1" />
+
+	<project path="system/bpf" name="platform_system_bpf" remote="salikalt" revision="android-13.0.0_r20" clone-depth="1" />
+	<project path="system/core" name="android_system_core-lineage" remote="salikalt" revision="lineage-20.0" clone-depth="1" />
+
+
+	<!-- Patches (IMS) -->
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
+	<remove-project name="LineageOS/android_packages_modules_Wifi" />
+	<remove-project name="platform/frameworks/opt/net/ims" />
+
+	<project path="frameworks/base" name="android_frameworks_base-lineage" remote="salikalt" revision="lineage-20.0" clone-depth="1" />
+	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony-lineage" remote="salikalt" revision="lineage-20.0" clone-depth="1" />
+	<project path="packages/modules/Wifi" name="android_packages_modules_Wifi-lineage" remote="salikalt" revision="lineage-20.0" clone-depth="1" />
+	<project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="salikalt" revision="android-13.0.0_r20" clone-depth="1" />
 
 
 </manifest>
