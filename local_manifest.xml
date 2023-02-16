@@ -5,6 +5,9 @@
         <remote name="salik"
                 fetch="https://github.com/P-Salik" />
 
+	<remote name="salikalt"
+		fetch="https://github.com/P-SalikAlt" />
+
 	<remote name="gitlabps"
 		fetch="https://gitlab.com/P-Salik" />
 
