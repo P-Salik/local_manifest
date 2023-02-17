@@ -25,6 +25,9 @@
 	<!-- Clang -->
 	<project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="salik" revision="9.0.3" clone-depth="1" />
 
+	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+
+
 	<!-- GCC -->
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="salik" revision="master" clone-depth="1" />
 
@@ -35,5 +38,11 @@
 
 	<project path="system/bpf" name="platform_system_bpf" remote="salikalt" revision="android-13.0.0_r30" clone-depth="1" />
 	<project path="system/core" name="android_system_core-pos" remote="gitlabps" revision="thirteen" clone-depth="1" />
+
+
+	<!-- Fix sync -->
+	<project path="vendor/xiaomi/vayu" name="sanjeevstunner/android_vendor_xiaomi_vayu" remote="github" revision="13" />
+
+	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
 </manifest>
