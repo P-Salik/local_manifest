@@ -40,9 +40,4 @@
 	<project path="system/core" name="android_system_core-pos" remote="gitlabps" revision="thirteen" clone-depth="1" />
 
 
-	<!-- Fix sync -->
-	<project path="vendor/xiaomi/vayu" name="sanjeevstunner/android_vendor_xiaomi_vayu" remote="github" revision="13" />
-
-	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
-
 </manifest>
