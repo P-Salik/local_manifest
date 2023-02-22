@@ -30,8 +30,10 @@
 	<!-- Patches -->
 	<remove-project name="platform/system/bpf" />
 	<remove-project name="android_system_core" />
+	<remove-project name="android_vendor_arrow" />
 
 	<project path="system/bpf" name="system_bpf" remote="salik" revision="android-13.0.0_r20" clone-depth="1" />
 	<project path="system/core" name="android_system_core" remote="salik" revision="arrow-13.0" clone-depth="1" />
+	<project path="vendor/arrow" name="android_vendor_arrow" remote="salik" revision="arrow-13.0" clone-depth="1" />
 
 </manifest>
