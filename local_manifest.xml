@@ -19,7 +19,7 @@
 
 
 	<!-- IMS -->
-	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="thirteen" clone-depth="1" />
+	<project path="vendor/realme/RMX1941-ims" name="vendor_realme_RMX1941-ims" remote="salik" revision="lineage-20" clone-depth="1" />
 
 
 	<!-- Clang -->
@@ -44,7 +44,7 @@
 	<remove-project name="platform/system/bpf" />
 	<remove-project name="system_core" />
 
-	<project path="system/bpf" name="platform_system_bpf" remote="salikalt" revision="android-13.0.0_r30" clone-depth="1" />
+	<project path="system/bpf" name="system_bpf" remote="salik" revision="android-13.0.0_r30" clone-depth="1" />
 	<project path="system/core" name="android_system_core-pos" remote="gitlabps" revision="thirteen" clone-depth="1" />
 
 
