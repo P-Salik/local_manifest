@@ -24,7 +24,7 @@
 
 
 	<!-- Sepolicy -->
-	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.0" clone-depth="1" />
+	<project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="arrow-13.1" clone-depth="1" />
 
 
 	<!-- Clang -->
